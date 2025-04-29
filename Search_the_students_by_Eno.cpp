@@ -8,7 +8,7 @@ using namespace std;
 class StudentSearchApp
 {
     unordered_map<int, string> students;
-    char input[4] = ""; 
+    char input[5] = ""; 
     char message[64] = "Enter last 4 digits";
 
     void searchStudent()
